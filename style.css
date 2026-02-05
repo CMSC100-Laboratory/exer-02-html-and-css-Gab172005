@@ -19,6 +19,16 @@ header {
     text-align: center;
 }
 
+a, a:visited, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+.description {
+    padding-top: 13px;
+    font-size: 14px;
+    border-top: #000000;
+}
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -65,7 +75,24 @@ th {
     margin-bottom: 1.5rem;
     border-left: 5px solid#000000;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
+    transition: background-color 0.15s;
 }
+
+.project:hover { 
+background: #cec9c9;
+}
+
+
+.tag {
+        display: inline-block;
+        background: #e4eaf0;
+        padding: 0.2rem 0.6rem;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        margin-right: 5px;
+        transition: background-color 0.15s;
+    }
 
 h2 {
     border-bottom: 2px solid #7f8488;
