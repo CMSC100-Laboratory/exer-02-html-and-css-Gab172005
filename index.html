@@ -1,59 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Layout</title>
-    <link rel="stylesheet" href="flex.css">
+    <title>Portfolio | Frontend Engineer Candidate</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo-placeholder"></div>
-        <nav>
-            <h1>Logo and Navigation Bar</h1>
-        </nav>
-    </header>
+<header>
+    <h1>Frontend Software Engineer Portfolio</h1>
+    <p>Computer Science Graduate | Gugil Co. Applicant</p>
+</header>
 
-    <main>
-        <section class="featured">
-            <h2>Featured Photo</h2>
-            <div class="box large-box"></div>
-        </section>
-
-        <section class="projects">
-            <h2>Previous Projects</h2>
-            <div class="grid-4">
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-            </div>
-        </section>
-
-        <section class="info-split">
-            <div class="info-item">
-                <h2>Skills</h2>
-                <div class="box medium-box"></div>
-            </div>
-            <div class="info-item">
-                <h2>Autobiography</h2>
-                <div class="box medium-box"></div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-container">
-            <div class="box small-box"></div>
-            <div class="footer-text">
-                <p>Footer Contents</p>
-                <p>Logo, Address / Contact Information, and Personal Website</p>
-                <p>Copyright Information</p>
-                <a href="#">Back to Top</a>
+<div class="container">
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="profile-section">
+            <img src="IMG_3761.jpg" alt="Featured Photo" class="profile-photo">
+            <div>
+                <h3> LUIS GABRIEL KALUGDAN</h3>
+                <p>
+                    daohdiohwadinadbwadbwaoiudwaiodhnwaidoandiadaidhawoidawiodawoida
+                </p>
             </div>
         </div>
-    </footer>
+    </section>
+
+    <section id="projects">
+        <h2>Previous Projects</h2>
+        
+        <div class="project">
+            <h3>Clicker Game</h3>
+            <p>A JavaFX-based clicker game with RPG elements, card collection, and inventory management. Battle monsters, collect cards, and level up in this addictive idle game experience.</p>
+        </div>
+
+        <div class="project">
+            <h3>City Pollution Reduction Plan</h3>
+            <p>An R Shiny application that serves as a linear programming optimization tool designed to select the most cost-effective combination of mitigation projects to meet specific city pollution reduction targets. Instead of using pre-built solver libraries, this project implements a custom Simplex Algorithm from scratch to solve the minimization problem.</p>
+        </div>
+
+         
+        <div class="project">
+            <h3>Quiz Game</h3>
+            <p>
+                This software simulates a quiz game like who wants to be a millionaire and runs on python terminal. 
+            </p>   
+            </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical & Management Skills</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Skills</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Web Programming</strong></td>
+                    <td>Semantic HTML5, CSS</td>
+                </tr>
+                <tr>
+                    <td><strong>Management</strong></td>
+                    <td>Technical Documentation, Version Control (Git), Team Leadership</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 | Luis Gabriel Kalugdan. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
